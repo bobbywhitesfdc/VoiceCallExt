@@ -7,6 +7,3 @@ function prop {
 }
 #create scratch org
 sfdx force:org:create -f config/project-scratch-def.json -s -a VOICEEXT username="$(prop 'user.admin' )" --durationdays 28
-
-
-sfdx force:org:open
